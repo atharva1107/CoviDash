@@ -1,0 +1,30 @@
+#custom-button {
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height:40px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    cursor: pointer;
+  }
+  
+  #custom-button:hover {
+    background-color: #00b28f;
+  }
+  
+  #custom-text {
+    margin-left: 10px;
+    height:40px; 
+    width:100px; 
+    margin: 20px 50px; 
+    position:relative;
+    top:50%; 
+    
+    font-family: sans-serif;
+    color: #aaa;
+  }
