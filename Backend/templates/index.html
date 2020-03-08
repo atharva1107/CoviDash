@@ -1,0 +1,31 @@
+<!doctype html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Run a python script</title>
+    <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- <h1>Convert <code>.doc</code> to <code>.pdf</code></h1> -->
+        <h1>CoviDash</h1>
+        <p>
+            Run a python script on our Coronavirus dataset
+        </p>
+    </header>
+    <main>
+        <form method="post" enctype=multipart/form-data> 
+            <label for="file">Upload your python model</label>
+            <input type="file" name="file" id="file">
+            <input type="submit" value="Upload">
+        </form>
+        <br>
+    </main>
+    <footer>
+        <p>You can also provide the URL of a document to convert with the <code>url</code> query
+            parameter.
+            <br>
+        </p>
+    </footer>
+</body>
